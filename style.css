@@ -1,0 +1,327 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 130vh 130vh 130vh 130vh 100vh;
+    grid-template-areas:
+    'header'
+    'div1'
+    'div2'
+    'div3'
+    'footer';
+}
+
+header{
+    grid-area: header;
+    background-image: url("pdf1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar{
+    width:100%;
+    color: #eee;
+    height: 55px;
+    position: fixed;
+    background-color: rgb(140, 1, 221);
+    box-shadow: 0px 3px 10px black;
+}
+
+li{
+    list-style: none;
+}
+
+.menu{
+    display: flex;
+    margin-left: 750px;
+    margin-top: 2px;
+    font-size: 30px;
+    height: 45px;
+}
+
+.menu a:hover{
+    color:yellow;   
+}
+
+.menu li{
+    margin-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+.menu li a{
+    display: block;
+    padding:10px;
+}
+
+.menu li:hover{
+    border-bottom: 2px solid yellow ;
+}
+
+#Nome{
+    font-size: 80px;
+    font-style: italic;
+    color: white;
+    margin-left: 50px;
+}
+
+#tag_line{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: aliceblue;
+    margin-left: 50px;
+}
+
+#div1{
+    background-image: url("pdf2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: div1;
+    display: flex;
+}
+
+#frase_impacto{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 35px;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 200px;
+    margin-bottom: 470px;
+}
+
+#main1{
+    color: black;
+    margin-left: 70px;
+    margin-top: 150px;
+    margin-bottom: 190px;
+    width: 250px;
+    text-align: center;
+    background-color: rgb(240, 187, 255);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.reparos_pos{
+    text-align: left;
+}
+
+#reparo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#rp{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main2{
+    color: black;
+    margin-left: 150px;
+    margin-top: 150px;
+    margin-bottom: 190px;
+    width: 250px;
+    text-align: center;
+    background-color: rgb(240, 187, 255);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+}
+
+#em{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#exigencias{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.exi_enc{
+    text-align: left;
+}
+
+#div2{
+    background-image: url(pdf_mvv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: div2;
+    display: flex;
+}
+
+#historia{
+    background-color: rgb(230, 187, 255);
+    margin-top: 60px;
+    margin-bottom: 150px;
+    margin-left: 60px;
+    width: 550px;
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+}
+
+#n_hist{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+#mvv{
+    background-color: rgb(230, 187, 255);
+    margin-top: 60px;
+    margin-bottom: 150px;
+    margin-left: 100px;
+    width: 550px;
+    font-style: italic;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+}
+
+#missao{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#id_missao{
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#visao{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#id_visao{
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#valores{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#id_valores{
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#div3{
+    background-image: url(sustentabilidade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    grid-area: div3;
+}
+
+#frase_susten{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#sustentabilidade{
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+#frase_impacto_susten{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+#texto_susten{
+    background-color: aliceblue;
+    margin-top: 60px;
+    margin-bottom: 150px;
+    margin-left: 270px;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+}
+
+#p_susten{
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer{
+    background-image: linear-gradient(45deg, rgb(230, 161, 230), rgb(145, 56, 145), purple);
+    grid-area: footer;
+    display: flex;
+}
+
+#mais_inf{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#msg_final{
+    margin-top: 520px;
+    margin-left: 30px;
+    width: 650px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#marca_dagua{
+    margin-top: 550px;
+    margin-left: -500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    color: rgb(77, 75, 75);
+}
+
+#img_footer{
+    margin-top: 50px;
+    margin-left: -250px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px 60px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background: #000;
+    border-radius: 5px;
+    transition: background 500ms ease;
+    width: 200px;
+}
+
+
+.btn:hover {
+    cursor: pointer;
+    background: purple;
+}
+
+ 
+
+#contatos{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#botao{
+    margin-top: 500px;
+    margin-left: -200px;
+    margin-right: 20px;
+}
